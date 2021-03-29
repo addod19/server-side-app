@@ -30,7 +30,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', (req, res) => {
   // res.status(200).send('DanFood: Food for full stack developers');
   res.render('index', { title: 'Home'});
-})
+});
+
+app.get('/user', (req, res) => {
+  res.render('user', { title: 'Profile', userProfile: 'Auth0'});
+});
 
 /**
  * Server Activation
