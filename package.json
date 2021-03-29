@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/addod19/server-side-app/issues"
   },
-  "homepage": "https://github.com/addod19/server-side-app#readme"
+  "homepage": "https://github.com/addod19/server-side-app#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
