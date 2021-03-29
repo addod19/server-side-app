@@ -27,7 +27,8 @@ app.set('view engine', 'pug')
  */
 
 app.get('/', (req, res) => {
-  res.status(200).send('DanFood: Food for full stack developers');
+  // res.status(200).send('DanFood: Food for full stack developers');
+  res.render('index', { title: 'Home'});
 })
 
 /**
